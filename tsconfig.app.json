@@ -8,7 +8,7 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "propTypes/**/*.ts" // Include the propTypes directory
+    "src/propTypes/**/*.ts" // Include the propTypes directory
   ],
   "exclude": [
     "node_modules"

@@ -10,7 +10,7 @@ import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import Nav from './components/Nav.vue';
 import Cards_list from './components/Cards_list.vue';
-import type { Data, Filter, Sort, Group_by } from '../propTypes/Cards_list_props';
+import type { Data, Filter, Sort, Group_by } from './propTypes/Cards_list_props';
 
 const data = ref<Data[]>([]); // Define data as an array of Data
 const filter = ref<Filter>({ value: '' });

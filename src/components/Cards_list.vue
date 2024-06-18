@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import EachCard from './EachCard.vue';
-import type { Data, Filter, Sort, Group_by } from '../../propTypes/Cards_list_props'; // Type-only import
+import type { Data, Filter, Sort, Group_by } from '../propTypes/Cards_list_props'; // Type-only import
 import { computed, ref, watchEffect } from 'vue';
 
 const props = defineProps<{

@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { computed, watchEffect } from 'vue';
-import type { Data } from '../../propTypes/Cards_list_props'; // Type-only import
+import type { Data } from '../propTypes/Cards_list_props'; // Type-only import
 
 const props = defineProps<{
   item: Data;
