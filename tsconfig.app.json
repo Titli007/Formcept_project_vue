@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "propTypes/**/*.ts" // Include the propTypes directory
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
